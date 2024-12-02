@@ -3,84 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unión General de Trabajadores (UGT)</title>
-    <link rel="stylesheet" href="css/index.css">
+    <meta name="description" content="Página web oficial de UGT, Unión General de Trabajadores.">
+    <title>UGT - Unión General de Trabajadores</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Encabezado -->
+
     <header>
-        <h1>Unión General de Trabajadores (UGT)</h1>
-        <p>Defendiendo los derechos de los trabajadores desde 1888</p>
-        <nav>
-            <a href="#historia">Historia</a>
-            <a href="#valores">Valores</a>
-            <a href="#servicios">Servicios</a>
-            <a href="#noticias">Noticias</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
+        <div class="container">
+            <h1>UGT - Unión General de Trabajadores</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Acerca de UGT</a></li>
+                    <li><a href="#news">Noticias</a></li>
+                    <li><a href="#gallery">Galería</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <!-- Sección: Historia -->
-    <section id="historia">
-        <h2>Nuestra Historia</h2>
-        <p>La Unión General de Trabajadores (UGT) fue fundada en 1888 en Barcelona, España. Es uno de los sindicatos más importantes del país y ha sido un pilar fundamental en la lucha por los derechos laborales, la igualdad y la justicia social para los trabajadores de todos los sectores.</p>
-    </section>
-
-    <!-- Sección: Valores -->
-    <section id="valores">
-        <h2>Nuestros Valores</h2>
-        <ul>
-            <li><strong>Solidaridad:</strong> Trabajamos en conjunto para lograr objetivos comunes.</li>
-            <li><strong>Igualdad:</strong> Defendemos la igualdad de derechos sin importar género, raza o condición social.</li>
-            <li><strong>Justicia Social:</strong> Luchamos por la distribución justa de los recursos y oportunidades.</li>
-            <li><strong>Democracia:</strong> Creemos en la participación activa de los trabajadores en la toma de decisiones.</li>
-        </ul>
-    </section>
-
-    <!-- Sección: Servicios -->
-    <section id="servicios">
-        <h2>Servicios para Afiliados</h2>
-        <div class="servicio">
-            <h3>Asesoría Jurídica</h3>
-            <p>Ofrecemos asesoría legal para nuestros afiliados en temas laborales y sociales.</p>
-        </div>
-        <div class="servicio">
-            <h3>Formación y Capacitación</h3>
-            <p>Programas de formación continua para mejorar la empleabilidad de nuestros afiliados.</p>
-        </div>
-        <div class="servicio">
-            <h3>Negociación Colectiva</h3>
-            <p>UGT negocia convenios colectivos que aseguren condiciones laborales justas.</p>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Acerca de UGT</h2>
+            <p>La Unión General de Trabajadores (UGT) es un sindicato que defiende los derechos de los trabajadores en España. Fundada en 1888, UGT ha estado luchando por la mejora de las condiciones laborales y sociales de los trabajadores en todo el país.</p>
         </div>
     </section>
 
-    <!-- Sección: Noticias -->
-    <section id="noticias">
-        <h2>Últimas Noticias</h2>
-        <article>
-            <h3>UGT Apoya Nuevas Medidas Laborales</h3>
-            <p>UGT celebra las nuevas reformas que buscan mejorar las condiciones de trabajo y la seguridad laboral en España.</p>
-        </article>
-        <article>
-            <h3>Formación en el Sector Tecnológico</h3>
-            <p>Se inicia un programa de formación para preparar a los trabajadores en el ámbito de las nuevas tecnologías.</p>
-        </article>
+    <section id="news" class="section">
+        <div class="container">
+            <h2>Últimas Noticias</h2>
+            <ul>
+                <li><a href="#">El último informe sobre las condiciones laborales en España</a></li>
+                <li><a href="#">UGT convoca una manifestación por mejores derechos laborales</a></li>
+                <li><a href="#">Conferencia internacional de sindicatos en Madrid</a></li>
+            </ul>
+        </div>
     </section>
 
-    <!-- Sección: Contacto -->
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Si deseas más información o tienes alguna pregunta, no dudes en contactarnos.</p>
-        <form>
-            <input type="text" placeholder="Nombre" required>
-            <input type="email" placeholder="Correo Electrónico" required>
-            <textarea placeholder="Mensaje" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2>Galería de Imágenes</h2>
+            <div class="gallery">
+                <img src="image1.jpg" alt="Manifestación UGT">
+                <img src="image2.jpg" alt="Reunión de trabajadores">
+                <img src="image3.jpg" alt="Congreso UGT">
+            </div>
+        </div>
+    </section>
+
+    <section id="videos" class="section">
+        <div class="container">
+            <h2>Videos</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TuVideoID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Para más información, visita nuestra página oficial o contáctanos a través del correo electrónico:</p>
+            <p><strong>Email:</strong> info@ugt.es</p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Unión General de Trabajadores. Todos los derechos reservados.</p>
+        <div class="container">
+            <p>&copy; 2024 UGT - Todos los derechos reservados.</p>
+        </div>
     </footer>
+
 </body>
 </html>
